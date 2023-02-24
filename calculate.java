@@ -13,5 +13,7 @@ public class calculate{
         int result = x + y;
         System.out.print(result);
 
+        System.out.print("Success!");
+
     }
 }
