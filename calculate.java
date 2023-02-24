@@ -8,9 +8,9 @@ public class calculate{
         int x = scan.nextInt();
 
         System.out.println("Enter NUmber : ");
-        int y = scan.nextInt();
+        int z = scan.nextInt();
 
-        int result = x + y;
+        int result = x + z;
         System.out.print(result);
 
     }
