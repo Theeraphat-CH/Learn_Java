@@ -25,7 +25,7 @@ public class temparature_converter {
             int result = convert_tem_fahr(temp);
             System.out.print("Convert from celsius to fahr is "+result+"\n");
         } else if (temp_type == 2) {
-            System.out.print("Enter Celsius : ");
+            System.out.print("Enter Fahr : ");
             int temp = scan.nextInt();
             int result = convert_tem_cel(temp);
             System.out.print("Convert from Fahr to celsius is "+result+"\n");
