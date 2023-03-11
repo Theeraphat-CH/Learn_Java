@@ -1,7 +1,12 @@
 public class Human {
+
+    static String name;
+    static int age;
+    static double weight;
+
     Human(String name, int age, double weight) {
-        System.out.printf("\nName : %s", name);
-        System.out.printf("\nAge : %d", age);
-        System.out.printf("\nWeight : %s", weight);
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
     }
 }
