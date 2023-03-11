@@ -9,4 +9,12 @@ public class Human {
         this.age = age;
         this.weight = weight;
     }
+    
+    void show() {
+        System.out.printf("\nName : %s", this.name);
+        System.out.printf("\nAge : %d", this.age);
+        System.out.printf("\nWeight : %s", this.weight);
+    }
+
+    
 }
