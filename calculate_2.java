@@ -23,7 +23,7 @@ public class calculate_2 {
 
         System.out.print("Calculate NUmber");
 
-        System.out.println("Enter Function 1(+) 2(-) 3(x) 4(%)");
+        System.out.print("Enter Function 1(+) 2(-) 3(x) 4(%)\n=> ");
         int function_cal = scan.nextInt();
 
         if (function_cal == 1) {
@@ -42,7 +42,7 @@ public class calculate_2 {
             System.out.println("Enter Number 2 : ");
             int y = scan.nextInt();
 
-            int result = div_fun(x, y);
+            int result = minus_fun(x, y);
             System.out.print(x+" - "+y+" = "+result);
         } else if (function_cal == 3) {
             System.out.println("Enter Number 1 : ");
